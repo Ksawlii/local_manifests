@@ -19,7 +19,7 @@
   <project path="system/security" name="Gabboxl/android_system_security" groups="pdk" remote="github" revision="rvc" /> -->
 
   <!-- GcamGo package -->
-  <project path="packages/apps/GcamGo" name="Gabboxl/android_packages_apps_GcamGo" remote="github" />
+  <!-- <project path="packages/apps/GcamGo" name="Gabboxl/android_packages_apps_GcamGo" remote="github" /> -->
 
   <!-- Grand Prime specific trees -->
   <project path="device/samsung/gprimelte-common" name="Gabboxl/android_device_samsung_gprimelte-common" remote="github" revision="lineage-18.1"/>
@@ -33,4 +33,8 @@
   <project path="device/samsung/gprimeltetfnvzw" name="Gabboxl/android_device_samsung_gprimeltetfnvzw" remote="github" revision="lineage-18.1"/>
   <project path="device/samsung/gprimelteusc" name="Gabboxl/android_device_samsung_gprimelteusc" remote="github" revision="lineage-18.1"/>
   <project path="device/samsung/fortunaltedx" name="Gabboxl/android_device_samsung_fortunaltedx" remote="github" revision="lineage-18.1"/>
+
+  <!-- packages/apps -->
+  <project path="packages/apps/ViaBrowser" name="Ksawlii/packages/apps/ViaBrowser" remote="github" revision="master"/>
+
 </manifest>

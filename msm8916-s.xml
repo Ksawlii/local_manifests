@@ -47,4 +47,8 @@
   <project path="device/samsung/gprimeltetfnvzw" name="Gabboxl/android_device_samsung_gprimeltetfnvzw" remote="github" revision="lineage-19.0"/>
   <project path="device/samsung/gprimelteusc" name="Gabboxl/android_device_samsung_gprimelteusc" remote="github" revision="lineage-19.0"/>
   <project path="device/samsung/fortunaltedx" name="Gabboxl/android_device_samsung_fortunaltedx" remote="github" revision="lineage-19.0"/> -->
+  
+  <!-- packages/apps -->
+  <project path="packages/apps/ViaBrowser" name="Ksawlii/packages/apps/ViaBrowser" remote="github" revision="master"/>
+
 </manifest>
