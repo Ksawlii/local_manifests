@@ -1,4 +1,4 @@
-i<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
   <!-- ./device/xiaomi/ -->
@@ -18,3 +18,5 @@ i<?xml version="1.0" encoding="UTF-8"?>
 
   <!-- My Optional Repos -->
   <project path="packages/apps/ViaBrowser" name="ksawlii/packages_apps_ViaBrowser" remote="github" revision="aosp-14"/>
+  
+  <manifest>  
