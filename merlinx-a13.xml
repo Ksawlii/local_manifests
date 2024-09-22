@@ -9,7 +9,7 @@
   <project path="vendor/xiaomi" name="nahhk-aosp/proprietary_vendor_xiaomi" remote="github" revision="aosp-14"/>
 
   <!-- ./kernel/xiaomi/ -->
-  <project path="kernel/xiaomi/merlinx" name="nahhk-aosp/android_kernel_xiaomi_mt6768" remote="github" revision="aosp-14/lts"/>
+  <project path="kernel/xiaomi/mt6768" name="nahhk-aosp/android_kernel_xiaomi_mt6768" remote="github" revision="aosp-14/lts"/>
 
   <!-- ./hardware/ -->
   <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-20"/>
