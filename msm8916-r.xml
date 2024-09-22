@@ -26,15 +26,15 @@
 
   <project path="device/samsung/gprimeltexx" name="kreciorek/android_device_samsung_gprimeltexx" remote="github" revision="lineage-18.1"/>
   <project path="device/samsung/fortuna3g" name="kreciorek/android_device_samsung_fortuna3g" remote="github" revision="lineage-18.1"/>
-  <project path="device/samsung/fortunave3g" name="kreciorek/android_device_samsung_fortunave3g" remote="github" revision="lineage-18.1"/>
-  <project path="device/samsung/fortunalteub" name="kreciorek/android_device_samsung_fortunalteub" remote="github" revision="lineage-18.1"/>
+  <project path="device/samsung/fortunave3g" name="ksawlii/android_device_samsung_fortunave3g" remote="github" revision="lineage-18.1"/>
+  <project path="device/samsung/fortunalteub" name="ksawlii/android_device_samsung_fortunalteub" remote="github" revision="lineage-18.1"/>
   <project path="device/samsung/gprimelte" name="kreciorek/android_device_samsung_gprimelte" remote="github" revision="lineage-18.1"/>
-  <project path="device/samsung/fortuna3gdtv" name="kreciorek/android_device_samsung_fortuna3gdtv" remote="github" revision="lineage-18.1"/>
-  <project path="device/samsung/gprimeltetfnvzw" name="Ksawlii/android_device_samsung_gprimeltetfnvzw" remote="github" revision="lineage-18.1"/>
-  <project path="device/samsung/gprimelteusc" name="Ksawlii/android_device_samsung_gprimelteusc" remote="github" revision="lineage-18.1"/>
+  <project path="device/samsung/fortuna3gdtv" name="ksawlii/android_device_samsung_fortuna3gdtv" remote="github" revision="lineage-18.1"/>
+  <project path="device/samsung/gprimeltetfnvzw" name="ksawlii/android_device_samsung_gprimeltetfnvzw" remote="github" revision="lineage-18.1"/>
+  <project path="device/samsung/gprimelteusc" name="ksawlii/android_device_samsung_gprimelteusc" remote="github" revision="lineage-18.1"/>
   <project path="device/samsung/fortunaltedx" name="kreciorek/android_device_samsung_fortunaltedx" remote="github" revision="lineage-18.1"/>
 
   <!-- packages/apps -->
-  <project path="packages/apps/ViaBrowser" name="Ksawlii/packages_apps_ViaBrowser" remote="github" revision="master"/>
+  <project path="packages/apps/ViaBrowser" name="ksawlii/packages_apps_ViaBrowser" remote="github" revision="master"/>
 
 </manifest>
