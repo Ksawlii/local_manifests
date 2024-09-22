@@ -4,12 +4,17 @@ i<?xml version="1.0" encoding="UTF-8"?>
   <!-- ./device/xiaomi/ -->
   <project path="device/xiaomi/merlinx" name="nahhk-aosp/android_device_xiaomi_merlinx" remote="github" revision="aosp-14"/>
   <project path="device/xiaomi/mt6768-common" name="nahhk-aosp/android_device_xiaomi_mt6768-common" remote="github" revision="aosp-14"/>
+  <project path="device/mediatek/sepolicy_vndr" name="LineageOS/android_device_mediatek_sepolicy_vndr" remote="github" revision="lineage-20"/>
 
   <!-- ./vendor/xiaomi/ -->
   <project path="vendor/xiaomi" name="nahhk-aosp/proprietary_vendor_xiaomi" remote="github" revision="aosp-14"/>
 
   <!-- ./kernel/xiaomi/ -->
   <project path="kernel/xiaomi/merlinx" name="nahhk-aosp/android_kernel_xiaomi_mt6768" remote="github" revision="aosp-14/lts"/>
+
+  <!-- ./hardware/ -->
+  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-20"/>
+  <project path="hardware/mediatek" name="LineageOS/android_hardware_mediatek" remote="github" revision="lineage-20"/>
 
   <!-- My Optional Repos -->
   <project path="packages/apps/ViaBrowser" name="ksawlii/packages_apps_ViaBrowser" remote="github" revision="aosp-14"/>
