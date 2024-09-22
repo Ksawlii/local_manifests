@@ -1,5 +1,15 @@
 i<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- trees -->
+  <!-- ./device/xiaomi/ -->
+  <project path="device/xiaomi/merlinx" name="nahhk-aosp/android_device_xiaomi_merlinx" remote="github" revision="aosp-14"/>
+  <project path="device/xiaomi/mt6768-common" name="nahhk-aosp/android_device_xiaomi_mt6768-common" remote="github" revision="aosp-14"/>
 
+  <!-- ./vendor/xiaomi/ -->
+  <project path="vendor/xiaomi" name="nahhk-aosp/proprietary_vendor_xiaomi" remote="github" revision="aosp-14"/>
+
+  <!-- ./kernel/xiaomi/ -->
+  <project path="kernel/xiaomi/merlinx" name="nahhk-aosp/android_kernel_xiaomi_mt6768" remote="github" revision="aosp-14/lts"/>
+
+  <!-- My Optional Repos -->
+  <project path="packages/apps/ViaBrowser" name="ksawlii/packages_apps_ViaBrowser" remote="github" revision="aosp-14"/>
