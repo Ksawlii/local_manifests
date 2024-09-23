@@ -11,11 +11,15 @@
   <project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" remote="github" revision="lineage-18.1"/>
   <project path="device/samsung/qcom-common" name="LineageOS/android_device_samsung_qcom-common" remote="github" revision="lineage-18.1"/>
 
-  <remove-project name="HavocOS/android_hardware_qcom_audio"/>
+  <remove-project name="LineageOS/android_hardware_qcom_audio"/>
   <project path="hardware/qcom-caf/msm8916/audio" name="Galaxy-MSM8916/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="github" revision="lineage-18.1-caf-msm8916" />
 
   <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="github" revision="lineage-18.1"/>
-  
+
+  <!-- Repos to even start building havoc -->
+  <remove-project name="Havoc-OS/android_hardware_havoc_interfaces">
+  <project path="hardware/lineage/interfaces" name="LineageOS/android_hardware_lineage_interfaces" remote="github" revision="lineage-18.1"/>
+  <project path="lineage-sdk" name="LineageOS/android_lineage-sdk" remote="github" revision="lineage-18.1"/>
   <!-- GcamGo package -->
   <!-- <project path="packages/apps/GcamGo" name="Gabboxl/android_packages_apps_GcamGo" remote="github" /> -->
 
