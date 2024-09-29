@@ -5,7 +5,7 @@
         <project path="device/samsung/klte-common" name="LineageOS/android_device_samsung_klte-common" remote="github" />
         <project path="device/samsung/msm8974-common" name="LineageOS/android_device_samsung_msm8974-common" remote="github" />
         <project path="kernel/samsung/msm8974" name="LineageOS/android_kernel_samsung_msm8974" remote="github" />
-        
+        <project path="vendor/samsung/msm8974-common" name="JLST-SM-MSM8974/proprietary_vendor_samsung_msm8974-common" remote="github" revision="lineage-18.1"/>        
         <!-- hardware/ samsung common files -->
         <remove-project name="LineageOS/android_hardware_qcom_audio"/>
         <project path="hardware/qcom-caf/msm8974/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="github" revision="lineage-18.1-caf-msm8974" />
