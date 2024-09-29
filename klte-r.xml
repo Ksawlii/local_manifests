@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+        <project path="device/samsung/klte" name="LineageOS/android_device_samsung_klte" remote="github" />
+        <project path="device/samsung/klte-common" name="LineageOS/android_device_samsung_klte-common" remote="github" />
+        <project path="device/samsung/msm8974-common" name="LineageOS/android_device_samsung_msm8974-common" remote="github" />
+        <project path="kernel/samsung/msm8974" name="LineageOS/android_kernel_samsung_msm8974" remote="github" />
+        
+        <!-- hardware/ samsung common files -->
+        <remove-project name="LineageOS/android_hardware_qcom_audio"/>
+        <project path="hardware/qcom-caf/msm8974/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" remote="github" revision="lineage-18.1-caf-msm8974" />
+        <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="github" revision="lineage-18.1"/>
+        <project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" remote="github" revision="lineage-18.1"/>
+        <project path="device/samsung/qcom-common" name="LineageOS/android_device_samsung_qcom-common" remote="github" revision="lineage-18.1"/>
+        <!-- my repos -->
+        <!-- packages/apps -->
+        <project path="packages/apps/ViaBrowser" name="ksawlii/packages_apps_ViaBrowser" remote="github" revision="master"/>
+
+
+</manifest>
