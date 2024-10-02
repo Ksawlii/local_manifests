@@ -36,5 +36,6 @@
 
   <!-- packages/apps -->
   <project path="packages/apps/ViaBrowser" name="ksawlii/packages_apps_ViaBrowser" remote="github" revision="master"/>
+  <project path="packages/apps/Fdroid" name="ksawlii/packages_apps_fdroid" remote="github" revision="main"/>
 
 </manifest>
